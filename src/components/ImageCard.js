@@ -19,7 +19,7 @@ class ImageCard extends React.Component {
 
 		const span = Math.ceil(height / 10);
 
-		this.setState({ span })
+		this.setState({ span });
 	}
 
 	render(){
